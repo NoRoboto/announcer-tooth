@@ -1,0 +1,5 @@
+{
+  "users": [
+    {"id": "xxxxxxx", "name": "Elastigirl", "command":"spd-say \"Welcome to Ubuntu Linux\""}
+  ]
+}
