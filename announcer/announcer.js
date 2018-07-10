@@ -2,7 +2,7 @@ const noble = require('noble');
 const exec = require("child_process").exec
 const utils = require("./utils")
 
-const file = utils.readFile("recognized.json")
+const file = utils.readFile("./announcer/recognized.json")
 let inHouseUsers = []
 const timeout = 15000
 
