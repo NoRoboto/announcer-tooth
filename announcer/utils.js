@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 const readFile = (path) => {
-  return JSON.parse(fs.readFileSync('recognized.json', 'utf8'));
+  return JSON.parse(fs.readFileSync(path, 'utf8'));
 }
 
 const writeFile = (path, newData) => {
