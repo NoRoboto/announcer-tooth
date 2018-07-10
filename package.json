@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "discover": "node ./announcer/discover.js",
+    "start": "node ./announcer/announcer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "NoRoboto",
   "license": "ISC",
   "dependencies": {
-    "noble": "^1.9.1"
+    "noble": "^1.9.1",
+    "play-sound": "^1.1.2"
   }
 }
